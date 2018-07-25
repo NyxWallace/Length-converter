@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="31884JackSpicer.Lengthunitsconverter" Publisher="CN=E6454137-7437-48E4-A727-6B0E8ED2AA10" Version="1.0.0.1" />
+  <Properties>
+    <DisplayName>Length units converter</DisplayName>
+    <PublisherDisplayName>Jack Spicer</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Length_converter.App">
+      <VisualElements DisplayName="Length units converter" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Length converter" ForegroundText="dark" BackgroundColor="#E6E600">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
